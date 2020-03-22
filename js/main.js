@@ -29,7 +29,7 @@ function fizzBuzz(){
             }
         }
 
-       function Fibonacci(){
+       function FibonacciSeries(){
            var limit = prompt("Enter the limit'n' to generate fibonacci sequence: ", " ");
            var f1=0;
            var f2 = 1;
