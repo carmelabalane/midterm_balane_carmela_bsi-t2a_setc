@@ -29,22 +29,22 @@ function fizzBuzz(){
             }
         }
 
-        function Fibonacci(){
-            var limit = prompt("Enter the limit 'n' to generate fibonacci sequence:", " ");
-            var f1=0;
-            var f2 =1;
-            
-            document.write("The limit entered to generate the fibonacci sequence is: ",limit, "<br/>);
-            document.write("The fibonacci sequence : ");
-            document.write("", f1, " ");
-            document.write("", f2, " ");
-            
-            var i,f3;
-            for(i =2; i < limit ; i++)
-            {
-                f3 = f1 + f2;
-                document.write("", f3, " ");
-                f1=f2;
-                f2=f3;
-            }
-        }
+       function Fibonacci(){
+           var limit = prompt("Enter the limit'n' to generate fibonacci sequence: ", " ");
+           var f1=0;
+           var f2 = 1;
+
+           document.write("The limited entered to generate the fibonacci sequence is: ",limit, "<br/>");
+           document.write("The fibonacci sequence : ");
+           document.write("", f1, " ");
+           document.write("", f2, " ");
+
+           var i,f3;
+           for(i =2; i < limit ; i++)
+           {
+               f3 = f1 + f2;
+               document.write("", f3, " ");
+               f1=f2;
+               f2=f3;
+           }
+         }
