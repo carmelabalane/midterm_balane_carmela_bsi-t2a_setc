@@ -30,15 +30,21 @@ function fizzBuzz(){
         }
 
         function Fibonacci(){
-            var a,b, result;
-
-            a=0;
-            b=1;
-            for(var i=1; i<100; i++)
+            var limit = prompt("Enter the limit 'n' to generate fibonacci sequence:", " ");
+            var f1=0;
+            var f2 =1;
+            
+            document.write("The limit entered to generate the fibonacci sequence is: ",limit, "<br/>);
+            document.write("The fibonacci sequence : ");
+            document.write("", f1, " ");
+            document.write("", f2, " ");
+            
+            var i,f3;
+            for(i =2; i < limit ; i++)
             {
-                document.write(result+"<br>");
-                result = a+b;
-                a=b;
-                b=result;
+                f3 = f1 + f2;
+                document.write("", f3, " ");
+                f1=f2;
+                f2=f3;
             }
         }
